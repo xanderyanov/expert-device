@@ -24,6 +24,12 @@ body {
   margin-top: auto;
 }
 
+.w1280 {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .firstScreen__area {
   width: 100%;
   position: relative;
@@ -32,10 +38,15 @@ body {
 .firstScreen__outer {
   width: 100%;
   position: relative;
+  background-position: center center;
+  background-size: cover;
 }
 
 .firstScreen {
   width: 100%;
   max-width: 1280px;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

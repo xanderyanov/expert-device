@@ -4,7 +4,6 @@
 
 include __const
 include __header
-include __slider1
 include __footer
 
 
@@ -17,12 +16,12 @@ body
 
 	.site__header
 		.firstScreen__area
-			.firstScreen__outer
+			.firstScreen__outer(style="background-image: url(assets/img/bg1.jpg)")
 				.firstScreen
-					+header
+					
+		+header
 
 	.site__center
-		+slider1
 
 	.site__footer
 		+footer
