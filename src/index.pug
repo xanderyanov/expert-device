@@ -1,0 +1,31 @@
+- var pageTitle = 'Главная страница'
+- var seoKeywords = 'Ключевые слова для страницы'
+- var seoDesc = 'Сео описание для страницы'
+
+include __const
+include __header
+include __slider1
+include __footer
+
+
+
+
+<!DOCTYPE html>
+html(lang="ru-RU")
+	+head
+body
+
+	.site__header
+		.firstScreen__area
+			.firstScreen__outer
+				.firstScreen
+					+header
+
+	.site__center
+		+slider1
+
+	.site__footer
+		+footer
+
+	+scripts
+	

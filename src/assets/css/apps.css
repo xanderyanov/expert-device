@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,600,700&display=swap&subset=cyrillic");
+@import "../../../node_modules/sweetalert/dist/sweetalert.css";
+@import "../../../node_modules/nouislider/distribute/nouislider.css";
+
+@import "../../../node_modules/swiper/css/swiper.css";
+@import "../../../node_modules/slider-pro/dist/css/slider-pro.css";
+@import "../../../node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css";
+
+@import "reset.css";
+
+@import "fonts.css";
+@import "typorraphy.css";
+@import "commons.css";
+
+@import "xandercode.css";
+
+@import "__header.css";
+@import "__header-media.css";
+
+@import "__slider1.css";
+@import "__slider1-media.css";
+
+@import "__footer.css";
+@import "__footer-media.css";
+
+@import "__breadcrumbs.css";
+
+@import "main.css";
+@import "media.css";
