@@ -109,10 +109,37 @@ body
               .expert__itemDesc Ведущий эксперт в области почерковедения, юрист, эксперт-криминалист
               .expert__itemWorkAge Стаж: 15 лет
         a.link2(href="") Все специалисты
-
+    .phoneLine__area
+      .phoneLine__outer.w1
+        .phoneLine
+          .phoneLine__slogan
+            | Нужна 
+            span.orange экспертиза?
+            |  Звоните:
+          a.phoneLine__link(href="")
+            span.orange 8 (8452)
+            | 93-30-88
+    .mainContacts__area
+      .mainContacts__outer.w1
+        .mainContacts
+          .mainContacts__left
+            h3 Наш адрес
+            .content
+              p г. Саратов, ул. Октябрьская 44, офис №6
+              p <i>(пересечение Октябрьской и Московской, вход с ул. Соляной)</i>
+          .mainContacts__right
+            .map__area
+              #map
+    
 
   .site__footer
     +footer
 
+  .toTop
+    i.icon-up1
+
+
+
+    script(src='https://api-maps.yandex.ru/2.1/?lang=ru_RU' type='text/javascript')
   +scripts
   

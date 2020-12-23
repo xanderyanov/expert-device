@@ -310,22 +310,24 @@
   margin: -33px 0 0 -33px;
   width: 66px;
   height: 66px;
-  background: transparent url("../img/loader.gif") no-repeat scroll center center;
+  background: transparent url("../img/loader.gif") no-repeat scroll center
+    center;
 }
 
 .toTop {
   z-index: 2600;
   position: fixed;
-  right: 10px;
-  bottom: 10px;
+  left: 20px;
+  bottom: 50px;
   opacity: 0.75;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 4px;
   padding: 5px;
-  background: #be3f46;
+  background: var(--orange);
+  transition: all 0.3s;
 }
 
 .toTop:hover {
@@ -333,8 +335,12 @@
 }
 
 .toTop i {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
+  transition: all 0.3s;
+}
+.toTop:hover i {
+  color: #000;
 }
 
 .breadcrumbs__area {

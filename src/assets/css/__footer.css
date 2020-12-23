@@ -1,0 +1,143 @@
+.footer__area {
+  position: relative;
+  width: 100%;
+  background-image: url(../img/bg6.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__outer {
+  position: relative;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 10px;
+}
+
+.f1 {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+}
+.f2 {
+  order: 2;
+}
+.f3 {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.f1 .logo1 {
+  margin-bottom: 2rem;
+}
+
+.oferta {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+}
+
+a.policy {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+}
+a.policy:hover {
+  text-decoration: none;
+}
+
+.dev {
+  margin-top: auto;
+  font-size: 0.75rem;
+  color: #fff;
+  font-style: italic;
+}
+.dev a {
+  font-size: 0.75rem;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-style: italic;
+}
+.dev a:hover {
+  text-decoration: underline;
+}
+
+.footerMenu__area {
+  position: relative;
+}
+
+.footerMenu {
+  display: flex;
+  flex-direction: column;
+}
+.footerMenu li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+.footerMenu li a {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.footerMenu li a:hover {
+  text-decoration: underline;
+}
+
+.footerMenu li.active a {
+  color: var(--orange);
+}
+
+a.footer__phone {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+a.footer__phone:hover {
+  text-decoration: underline;
+}
+
+a.footer__mail {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--orange);
+  margin-bottom: 2rem;
+}
+a.footer__mail:hover {
+  text-decoration: underline;
+}
+
+.footer__address {
+  text-align: right;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.footer__time {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+}
+.footer__timeTitle {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.footer__timeRow {
+  font-size: 0.875rem;
+}
