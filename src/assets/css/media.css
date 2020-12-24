@@ -1,9 +1,14 @@
 @media only screen and (max-width: 1280px) {
   .w1 {
-    padding: 0 10px 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
-  .title1 {
-    padding: 0.5rem 0.625rem;
+  .about {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .serv__item {
+    padding: 20px;
   }
 }
 
@@ -11,47 +16,190 @@
 }
 
 @media only screen and (max-width: 1080px) {
+  .wideSlogan__area {
+    padding: 50px 10px;
+  }
+  .wideSlogan {
+    font-size: 2rem;
+  }
+  .about {
+    padding: 40px 10px;
+  }
 }
 
 @media only screen and (max-width: 920px) {
+  .about__inner {
+    background: rgba(255, 255, 255, 0.7);
+    width: 70%;
+    padding: 10px;
+  }
+  .about__inner h1 {
+    margin-bottom: 30px;
+  }
+  .serv__itemOuter {
+    width: 33.333%;
+  }
+  .serv__itemOuter:last-child {
+    display: none;
+  }
+  .serv__area {
+    padding: 30px 0;
+  }
+  .serv {
+    padding: 20px 0;
+  }
 }
 
 @media only screen and (max-width: 800px) {
+  .phoneLine {
+    padding: 40px 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  .gallery__item {
-    width: 25%;
+  html,
+  body {
+    font-size: 14px;
+  }
+  .firstScreen__slogan {
+    padding: 40px 0;
+    width: 90%;
+    left: 5%;
+  }
+
+  .firstScreen__slogan span {
+    font-size: 2rem;
+  }
+  .wideSlogan__area {
+    padding: 30px 10px;
+  }
+  .wideSlogan {
+    font-size: 1.5rem;
+  }
+  .about__inner {
+    width: 80%;
+  }
+  .about__inner p {
+    margin-bottom: 10px;
+  }
+  .serv__area {
+    padding: 20px 0;
+  }
+  .serv {
+    padding: 10px 0 20px;
+  }
+  .serv__itemOuter {
+    width: 50%;
+  }
+  .serv__itemOuter:last-child {
+    display: block;
+  }
+  .expert__area {
+    padding: 30px 0;
+  }
+  .expert {
+    padding: 10px 0 10px;
+  }
+  .expert__itemOuter {
+    width: 40%;
+    margin-bottom: 10px;
+  }
+  .expert__itemImg {
+    margin-bottom: 10px;
+  }
+  .expert__itemName {
+    margin-bottom: 10px;
+  }
+  .expert__itemDesc {
+    margin-bottom: 10px;
+  }
+  .link1,
+  .link2 {
+    margin: 0 auto;
+  }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  .phoneLine {
+    flex-direction: column;
+  }
+  .mainContacts {
+    padding: 30px 0;
+    flex-direction: column;
+  }
+  .mainContacts__left .content {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .mainContacts__left {
+    width: 100%;
+    padding: 0;
+  }
+  .mainContacts__right {
+    width: 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  html,
-  body {
-    font-size: 12px;
+  .about__inner {
+    width: 100%;
   }
-  .gallery__item {
-    width: 33.333%;
+  .about {
+    padding: 20px 10px;
+  }
+  .about__inner h1 {
+    margin-bottom: 20px;
+  }
+  .serv__item {
+    padding: 15px;
+  }
+  .serv__itemImg {
+    margin-bottom: 10px;
+  }
+  .serv__itemTitle {
+    margin-bottom: 10px;
+  }
+  .serv__itemDesc {
+    margin-bottom: 10px;
+  }
+  .expert__area {
+    padding: 20px 0;
+  }
+  .mainContacts {
+    padding: 10px 0;
+  }
+  .mainContacts__left .content {
+    margin-top: 5px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .w1 {
-    padding: 0 5px 0 5px;
+  .firstScreen__slogan span {
+    font-size: 1.5rem;
   }
-  .title1 {
-    padding: 0.3125rem 0.3125rem;
+
+  html,
+  body {
+    font-size: 12px;
   }
-  .videoBox__outer {
-    width: 100%;
+  .expert__area {
+    padding: 10px 0;
   }
-  .gallery__item {
-    width: 50%;
+  .phoneLine {
+    padding: 20px 0;
   }
 }
 
 @media only screen and (max-width: 400px) {
+  .serv__itemOuter {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 320px) {
+  .expert__itemOuter {
+    width: 80%;
+  }
 }

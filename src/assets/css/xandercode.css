@@ -2,13 +2,24 @@
   --orange: #ffa200;
 }
 
-a.hover {
+/* a.hover {
   text-decoration: none !important;
-}
+} */
 
 .w1 {
   position: relative;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+}
+
+.stop {
+  overflow: hidden;
+  padding-right: 0;
+}
+
+.clearfix::after {
+  content: ""; /* Генерируем пустой элемент */
+  clear: both; /* Отменяем обтекание*/
+  display: block; /* Блочный элемент */
 }

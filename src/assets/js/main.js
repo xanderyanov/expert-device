@@ -3,6 +3,21 @@
 // });
 
 $(function () {
+
+
+  $(".menuButton").on("click", function (e) {
+    e.preventDefault();
+    if ($(this).hasClass("open")) {
+      $(this).removeClass("open");
+      $(".topMenu__outer").slideUp(200);
+      $("body").removeClass("stop");
+    } else {
+      $(this).addClass("open");
+      $(".topMenu__outer").slideDown(200);
+      $("body").addClass("stop");
+    }
+  });
+
   $(".go_to1").on("click", function () {
     var scroll_el = $(".go_adr1");
     // headerHeight = $(".header__area").height();
