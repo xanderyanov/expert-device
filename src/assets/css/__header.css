@@ -1,6 +1,9 @@
 .header__area {
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(../img/bg5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header__area_main {
@@ -8,6 +11,7 @@
   top: 0;
   left: 0;
   z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .header {

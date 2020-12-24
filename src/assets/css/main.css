@@ -231,11 +231,12 @@ body {
   display: flex;
   height: 100%;
   flex-direction: column;
-  background: #fff;
+  background: #f9f9f9;
   border-radius: 4px;
   padding: 30px;
   transition: all 0.3s;
   text-decoration: none;
+  /* border: 1px solid #000; */
 }
 
 .serv__item:hover {

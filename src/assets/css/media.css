@@ -39,7 +39,7 @@
   .serv__itemOuter {
     width: 33.333%;
   }
-  .serv__itemOuter:last-child {
+  .serv_main .serv__itemOuter:last-child {
     display: none;
   }
   .serv__area {
@@ -91,7 +91,7 @@
   .serv__itemOuter {
     width: 50%;
   }
-  .serv__itemOuter:last-child {
+  .serv_main .serv__itemOuter:last-child {
     display: block;
   }
   .expert__area {

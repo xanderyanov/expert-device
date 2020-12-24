@@ -1,0 +1,80 @@
+- var pageTitle = 'Страца всех услуг'
+- var seoKeywords = 'Ключевые слова для страницы'
+- var seoDesc = 'Сео описание для страницы'
+
+include __const
+include __header
+include __footer
+
+
+
+
+<!DOCTYPE html>
+html(lang="ru-RU")
+  +head
+body
+
+  .site__header
+    .header__area
+      +header
+  .site__center
+    .white__area
+      .white__outer.w1
+        .white
+          h1 Наши услуги
+          .content
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit quas? Laudantium vel maxime, alias qui voluptatem earum odio quibusdam?
+          .serv
+            .serv__itemOuter
+              a.serv__item(href="")
+                .serv__itemImg
+                  img(src="assets/img/serv/01.jpg", alt="")
+                .serv__itemTitle Технические экспертизы электронных устройств 
+                .serv__itemDesc Экспертизы сложных технических устройств на предмет выявления заводского брака и т.п.
+                .serv__itemLink Подробнее
+            .serv__itemOuter
+              a.serv__item(href="")
+                .serv__itemImg
+                  img(src="assets/img/serv/01.jpg", alt="")
+                .serv__itemTitle Технические экспертизы электронных устройств 
+                .serv__itemDesc Экспертизы сложных технических устройств на предмет выявления заводского брака и т.п.
+                .serv__itemLink Подробнее
+            .serv__itemOuter
+              a.serv__item(href="")
+                .serv__itemImg
+                  img(src="assets/img/serv/01.jpg", alt="")
+                .serv__itemTitle Технические экспертизы электронных устройств 
+                .serv__itemDesc Экспертизы сложных технических устройств
+                .serv__itemLink Подробнее
+            .serv__itemOuter
+              a.serv__item(href="")
+                .serv__itemImg
+                  img(src="assets/img/serv/01.jpg", alt="")
+                .serv__itemTitle Технические экспертизы электронных устройств 
+                .serv__itemDesc Экспертизы сложных технических устройств на предмет выявления заводского брака и т.п.
+                .serv__itemLink Подробнее
+    
+    .phoneLine__area
+      .phoneLine__outer.w1
+        .phoneLine
+          .phoneLine__slogan
+            | Нужна 
+            span.orange экспертиза?
+            |  Звоните:
+          a.phoneLine__link(href="")
+            span.orange 8 (8452)
+            | 93-30-88
+
+    
+
+  .site__footer
+    +footer
+
+  .toTop
+    i.icon-up1
+
+
+
+    script(src='https://api-maps.yandex.ru/2.1/?lang=ru_RU' type='text/javascript')
+  +scripts
+  
