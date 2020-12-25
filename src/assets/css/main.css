@@ -216,10 +216,13 @@ body {
 }
 
 .serv {
+  padding: 0 0 10px;
   display: flex;
-  padding: 40px 0;
   margin: 0 -10px;
   flex-wrap: wrap;
+}
+.serv_main {
+  padding: 40px 0;
 }
 
 .serv__itemOuter {
@@ -320,10 +323,13 @@ body {
 
 .expert {
   display: flex;
-  padding: 40px 0;
   margin: 0 -10px;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.expert_main {
+  padding: 40px 0;
 }
 
 .expert__itemOuter {

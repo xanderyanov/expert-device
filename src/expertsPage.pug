@@ -1,0 +1,73 @@
+- var pageTitle = 'Страница экспертов'
+- var seoKeywords = 'Ключевые слова для страницы'
+- var seoDesc = 'Сео описание для страницы'
+
+include __const
+include __header
+include __footer
+include __page
+
+
+
+
+<!DOCTYPE html>
+html(lang="ru-RU")
+  +head
+body
+
+  .site__header
+    .header__area
+      +header
+  .site__center
+    .white__area
+      .white__outer.w1
+        .white
+          +breadcrumbs
+          h1 Наши эксперты
+          .content
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit quas? Laudantium vel maxime, alias qui voluptatem earum odio quibusdam?
+          .expert__outer
+            .expert
+              .expert__itemOuter
+                a.expert__item(href="")
+                  .expert__itemImg
+                    img(src="assets/img/experts/01.jpg", alt="")
+                  .expert__itemSurname Сурнин
+                  .expert__itemName Аркадий Анатольевич
+                  .expert__itemDesc Ведущий эксперт в области почерковедения, юрист, эксперт-криминалист
+                  .expert__itemWorkAge Стаж: 15 лет
+              .expert__itemOuter
+                a.expert__item(href="")
+                  .expert__itemImg
+                    img(src="assets/img/experts/01.jpg", alt="")
+                  .expert__itemSurname Сурнин
+                  .expert__itemName Аркадий Анатольевич
+                  .expert__itemDesc Ведущий эксперт в области почерковедения
+                  .expert__itemWorkAge Стаж: 15 лет
+              .expert__itemOuter
+                a.expert__item(href="")
+                  .expert__itemImg
+                    img(src="assets/img/experts/01.jpg", alt="")
+                  .expert__itemSurname Сурнин
+                  .expert__itemName Аркадий Анатольевич
+                  .expert__itemDesc Ведущий эксперт в области почерковедения, юрист, эксперт-криминалист
+                  .expert__itemWorkAge Стаж: 15 лет
+              .expert__itemOuter
+                a.expert__item(href="")
+                  .expert__itemImg
+                    img(src="assets/img/experts/01.jpg", alt="")
+                  .expert__itemSurname Сурнин
+                  .expert__itemName Аркадий Анатольевич
+                  .expert__itemDesc Ведущий эксперт в области почерковедения, юрист, эксперт-криминалист
+                  .expert__itemWorkAge Стаж: 15 лет
+  .site__footer
+    +footer
+
+  .toTop
+    i.icon-up1
+
+
+
+    script(src='https://api-maps.yandex.ru/2.1/?lang=ru_RU' type='text/javascript')
+  +scripts
+  

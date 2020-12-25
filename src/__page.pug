@@ -1,0 +1,168 @@
+mixin breadcrumbs
+  .breadcrumbs__area
+    .breadcrumbs__outer
+      .breadcrumbs
+        .breadcrumbsHome
+          a(href='/') Главная
+        | /
+        .breadcrumbsInner
+          a(href='serv/') Направления деятельности
+        | /
+        .breadcrumbsCurrent
+          span Строительство промышленных объектов
+
+mixin intro
+  .intro__area
+    .intro__outer
+      .intro
+        .intro__txt Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur eos nisi eius vitae saepe reiciendis labore quo temporibus laboriosam possimus dolor, quam libero impedit! Nulla nam porro corporis id est?
+        .intro__img
+          img(src="assets/img/serv/01.jpg", alt="")
+
+mixin content
+  .content
+    p
+      | Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum repellat totam laborum
+      | deserunt reiciendis pariatur tempora accusamus repudiandae molestias temporibus.
+    p
+      | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, animi?
+    h2 Заголовок h2
+    h3 Заголовок h3
+    h4 Заголовок h4
+    h5 Заголовок h5
+    h6 Заголовок h6
+    p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at eaque eos error et. laborum minus natus necessitatibus veniam voluptatem?
+    p
+      | Lorem ipsum dolor sit amet, <a href="">consectetur adipisicing elit</a> consectetur adipisicing elit. Dolorem dolores magni odio possimus, rem tempora!
+    img(src="assets/img/serv/01.jpg", alt="" style="float: left;")
+    p
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eaque labore laboriosam
+      | libero minima nisi officiis recusandae tempora tenetur voluptatem? Accusamus, aliquid at
+      | culpa itaque labore libero nostrum quod repellendus.
+    ul
+      li Lorem ipsum dolor.
+      li Lorem ipsum.
+      li Lorem ipsum <strong> dolor</strong> sit amet.
+      li
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ipsa. Lorem ipsum
+        | dolor sit amet, consectetur adipisicing elit. Corporis, ipsa. Lorem ipsum dolor sit
+        | amet, consectetur adipisicing elit. Corporis, ipsa.
+      li Lorem.
+    p
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem dolores magni odio
+      | possimus, rem tempora!
+    ol
+      li Lorem ipsum dolor.
+      li Lorem ipsum.
+      li
+        | Lorem ipsum 
+        strong dolor
+        |  sit amet.
+      li
+        | Lorem ipsum 
+        strong dolor
+        |  sit amet, consectetur adipisicing elit. Corporis,
+        |                                 ipsa.
+      li Lorem.
+    h3 Таблица с принудительной шириной width="100%"
+    table(width='100%')
+      tbody
+        tr
+          td Строка 1 столбец 1
+          td
+            | Lorem ipsum 
+            strong dolor
+            |  sit amet.
+          td
+            ul
+              li
+                | Lorem ipsum
+                strong dolor
+                |  sit amet.
+              li
+                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, ipsa.
+              li Lorem.
+        tr
+          td Строка 2 столбец 1
+          td
+            | Строка 2 
+            a(href='/') ссылка в таблице
+          td Строка 2 столбец 3
+        tr
+          td
+            ol
+              li Lorem ipsum dolor.
+              li Lorem ipsum.
+              li
+                | Lorem ipsum
+                strong dolor
+                |  sit amet.
+              li Lorem.
+          td Строка 3 столбец 2
+          td Строка 3 столбец 3
+    p
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consequatur enim est,
+      | eveniet labore molestiae necessitatibus provident, quidem recusandae similique soluta
+      | voluptates. Architecto corporis cum dolor dolores eos, esse id iste labore minima nobis
+      | quae, quaerat quisquam sed ut voluptatum? Alias eaque eligendi hic in numquam perspiciatis
+      | possimus recusandae suscipit.
+    blockquote
+      | Текст цитаты Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur delectus
+      | deleniti dolor doloribus eaque molestiae placeat, possimus saepe! Aut corporis cupiditate
+      | delectus dolor eum laudantium magnam minus ullam voluptatibus. Architecto.
+    h3 Таблица с стилем .clear в свойствах
+    table.clear
+      tbody
+        tr
+          td Строка 1 столбец 1
+          td Строка 1 столбец 2
+          td Строка 1 столбец 3
+        tr
+          td Строка 2 столбец 1
+          td Строка 2 столбец 2
+          td Строка 2 столбец 3
+        tr
+          td Строка 3 столбец 1
+          td Строка 3 столбец 2
+          td Строка 3 столбец 3
+
+      
+
+
+mixin videogallery
+  .innerBox
+    .title2
+      h2 Видеогалерея H2
+    .videoBox__area
+      .videoBox__outer
+        .videoBox
+          a(data-fancybox='', href='https://www.youtube.com/watch?v=dl16e_mG6hg')
+            img(src='https://img.youtube.com/vi/dl16e_mG6hg/sddefault.jpg', alt='')
+      .videoBox__outer
+        .videoBox
+          a(data-fancybox='', href='https://www.youtube.com/watch?v=P5csD0SX8jI')
+            img(src='https://img.youtube.com/vi/P5csD0SX8jI/sddefault.jpg', alt='')
+
+mixin gallery
+  .innerBox
+    .title2
+      h2 Галерея H2
+    .gallery
+      .gallery__item
+        a(href='assets/img/gal/01.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/gal/01.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/gal/02.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/gal/02.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/gal/03.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/gal/03.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/gal/01.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/gal/01.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/gal/02.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/gal/02.jpg', alt='1')
+      .gallery__item
+        a(href='assets/img/gal/03.jpg', data-fancybox='group', data-caption='002')
+          img(src='assets/img/gal/03.jpg', alt='1')

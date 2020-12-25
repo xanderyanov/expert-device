@@ -1,0 +1,43 @@
+- var pageTitle = 'Страца всех услуг'
+- var seoKeywords = 'Ключевые слова для страницы'
+- var seoDesc = 'Сео описание для страницы'
+
+include __const
+include __header
+include __footer
+include __page
+
+
+
+
+<!DOCTYPE html>
+html(lang="ru-RU")
+  +head
+body
+
+  .site__header
+    .header__area
+      +header
+  .site__center
+    .white__area
+      .white__outer.w1
+        .white
+          +breadcrumbs
+          h1 Наши услуги
+          +intro
+          .content 
+            +content
+          +gallery
+          +videogallery
+
+  .site__footer
+    +footer
+
+  .toTop
+    i.icon-up1
+
+
+
+    script(src='https://api-maps.yandex.ru/2.1/?lang=ru_RU' type='text/javascript')
+  +scripts
+  

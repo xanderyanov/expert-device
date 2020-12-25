@@ -345,6 +345,8 @@
 
 .breadcrumbs__area {
   padding: 10px 0 10px;
+  border-bottom: 2px solid var(--orange);
+  margin-bottom: 20px;
 }
 .breadcrumbs {
   display: block;

@@ -45,7 +45,7 @@
   .serv__area {
     padding: 30px 0;
   }
-  .serv {
+  .serv_main {
     padding: 20px 0;
   }
 }
@@ -85,7 +85,7 @@
   .serv__area {
     padding: 20px 0;
   }
-  .serv {
+  .serv_main {
     padding: 10px 0 20px;
   }
   .serv__itemOuter {
@@ -97,7 +97,7 @@
   .expert__area {
     padding: 30px 0;
   }
-  .expert {
+  .expert_main {
     padding: 10px 0 10px;
   }
   .expert__itemOuter {

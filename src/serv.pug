@@ -1,10 +1,11 @@
-- var pageTitle = 'Страца всех услуг'
+- var pageTitle = 'Страница всех услуг'
 - var seoKeywords = 'Ключевые слова для страницы'
 - var seoDesc = 'Сео описание для страницы'
 
 include __const
 include __header
 include __footer
+include __page
 
 
 
@@ -21,9 +22,10 @@ body
     .white__area
       .white__outer.w1
         .white
+          +breadcrumbs
           h1 Наши услуги
           .content
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit quas? Laudantium vel maxime, alias qui voluptatem earum odio quibusdam?
+            p Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit quas? Laudantium vel maxime, alias qui voluptatem earum odio quibusdam?
           .serv
             .serv__itemOuter
               a.serv__item(href="")
@@ -53,20 +55,6 @@ body
                 .serv__itemTitle Технические экспертизы электронных устройств 
                 .serv__itemDesc Экспертизы сложных технических устройств на предмет выявления заводского брака и т.п.
                 .serv__itemLink Подробнее
-    
-    .phoneLine__area
-      .phoneLine__outer.w1
-        .phoneLine
-          .phoneLine__slogan
-            | Нужна 
-            span.orange экспертиза?
-            |  Звоните:
-          a.phoneLine__link(href="")
-            span.orange 8 (8452)
-            | 93-30-88
-
-    
-
   .site__footer
     +footer
 
