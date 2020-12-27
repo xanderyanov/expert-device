@@ -355,9 +355,9 @@ body {
   transition: all 0.3s;
 }
 
-.expert__item:hover .expert__itemImg {
+/* .expert__item:hover .expert__itemImg {
   box-shadow: 0 0 16px rgba(255, 162, 0, 0.33);
-}
+} */
 
 .expert__itemImg img {
   display: block;
@@ -382,10 +382,10 @@ body {
   transition: all 0.3s;
 }
 
-.expert__item:hover .expert__itemSurname,
+/* .expert__item:hover .expert__itemSurname,
 .expert__item:hover .expert__itemName {
   color: var(--orange);
-}
+} */
 
 .expert__itemDesc {
   color: black;
