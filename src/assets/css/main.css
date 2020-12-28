@@ -325,11 +325,11 @@ body {
   display: flex;
   margin: 0 -10px;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .expert_main {
   padding: 40px 0;
+  justify-content: space-around;
 }
 
 .expert__itemOuter {
