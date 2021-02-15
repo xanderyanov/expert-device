@@ -79,13 +79,19 @@
   display: none;
 }
 
+.header__phoneArea {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
 .header__phone {
   text-decoration: none;
   color: #fff;
 }
 
 .header__phone span {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 

@@ -24,7 +24,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="-67.126431"
+     inkscape:cx="-265.62141"
      inkscape:cy="112.99913"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -59,143 +59,204 @@
      id="layer1"
      transform="translate(-24.487813,-60.026271)">
     <g
-       id="g921"
-       transform="matrix(0.06049311,0,0,0.06049311,22.587724,61.534525)"
-       style="fill:#000080">
+       id="g898"
+       style="fill:#000080;fill-opacity:1">
       <g
-         id="g837"
-         style="fill:#000080">
+         id="g921"
+         transform="matrix(0.06049311,0,0,0.06049311,22.587724,61.534525)"
+         style="fill:#000080;fill-opacity:1">
         <g
-           id="g835"
-           style="fill:#000080">
-          <path
-             d="m 181.459,307.333 c 0,-44.432 28.778,-82.268 68.674,-95.85 -16.505,-10.702 -27.456,-29.274 -27.456,-50.368 0,-15.185 5.682,-29.062 15.016,-39.642 -83.802,20.285 -146.234,95.913 -146.234,185.86 v 74.97 H 31.41 v 90.048 H 61.434 V 512 h 30 V 472.351 H 420.567 V 512 h 30 v -39.649 h 30.024 V 382.303 H 181.459 Z"
-             id="path833"
-             style="fill:#000080" />
+           id="g837"
+           style="fill:#000080;fill-opacity:1">
+          <g
+             id="g835"
+             style="fill:#000080;fill-opacity:1">
+            <path
+               d="m 181.459,307.333 c 0,-44.432 28.778,-82.268 68.674,-95.85 -16.505,-10.702 -27.456,-29.274 -27.456,-50.368 0,-15.185 5.682,-29.062 15.016,-39.642 -83.802,20.285 -146.234,95.913 -146.234,185.86 v 74.97 H 31.41 v 90.048 H 61.434 V 512 h 30 V 472.351 H 420.567 V 512 h 30 v -39.649 h 30.024 V 382.303 H 181.459 Z"
+               id="path833"
+               style="fill:#000080;fill-opacity:1" />
+          </g>
         </g>
+        <g
+           id="g843"
+           style="fill:#000080;fill-opacity:1">
+          <g
+             id="g841"
+             style="fill:#000080;fill-opacity:1">
+            <path
+               id="rect839"
+               d="m 297.70099,292.20999 h 90.05 v 30.02 h -90.05 z"
+               style="fill:#000080;fill-opacity:1" />
+          </g>
+        </g>
+        <g
+           id="g849"
+           style="fill:#000080;fill-opacity:1">
+          <g
+             id="g847"
+             style="fill:#000080;fill-opacity:1">
+            <path
+               d="M 387.749,60.048 V 0 h -90.048 v 60.048 h -30.024 v 42.966 c 4.795,-1.239 9.821,-1.899 14.999,-1.899 33.084,0 60,26.916 60,60 0,33.084 -26.916,60 -60,60 -5.178,0 -10.204,-0.66 -15,-1.899 v 42.966 H 417.773 V 60.048 Z"
+               id="path845"
+               style="fill:#000080;fill-opacity:1" />
+          </g>
+        </g>
+        <g
+           id="g855"
+           style="fill:#000080;fill-opacity:1">
+          <g
+             id="g853"
+             style="fill:#000080;fill-opacity:1">
+            <path
+               id="circle851"
+               d="m 312.681,161.12 a 30,30 0 0 1 -30,30 30,30 0 0 1 -30,-30 30,30 0 0 1 30,-30 30,30 0 0 1 30,30 z"
+               style="fill:#000080;fill-opacity:1" />
+          </g>
+        </g>
+        <g
+           id="g857"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g859"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g861"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g863"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g865"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g867"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g869"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g871"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g873"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g875"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g877"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g879"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g881"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g883"
+           style="fill:#000080;fill-opacity:1" />
+        <g
+           id="g885"
+           style="fill:#000080;fill-opacity:1" />
       </g>
       <g
-         id="g843"
-         style="fill:#000080">
-        <g
-           id="g841"
-           style="fill:#000080">
-          <rect
-             x="297.70099"
-             y="292.20999"
-             width="90.050003"
-             height="30.02"
-             id="rect839"
-             style="fill:#000080" />
-        </g>
+         aria-label="ЕВАЙС"
+         id="text925"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.721px;line-height:1.25;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.568025">
+        <path
+           d="M 65.913895,90.109955 H 53.303739 V 74.205254 h 12.610156 v 3.18094 h -8.520376 v 3.067336 h 6.702696 v 3.18094 h -6.702696 v 3.294545 h 8.520376 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';stroke-width:0.568025;fill:#000080;fill-opacity:1"
+           id="path902" />
+        <path
+           d="m 67.731537,74.205254 h 9.0884 q 2.226658,0 3.271824,1.022445 1.045166,0.999724 1.045166,3.067335 0,1.363261 -0.590746,2.226659 -0.590746,0.840677 -1.454144,1.181492 1.840401,0.499862 2.49931,2.453868 0.22721,0.704351 0.22721,1.635912 0,2.226658 -1.045166,3.271824 -1.045166,1.045166 -3.271824,1.045166 h -9.77003 z m 9.99724,10.906081 q 0,-1.36326 -1.36326,-1.36326 h -4.5442 v 3.18094 h 4.5442 q 1.36326,0 1.36326,-1.36326 z m -0.68163,-6.361881 q 0,-1.36326 -1.36326,-1.36326 h -3.86257 v 3.180941 h 3.86257 q 1.36326,0 1.36326,-1.36326 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';stroke-width:0.568025;fill:#000080;fill-opacity:1"
+           id="path904" />
+        <path
+           d="m 86.703551,90.109955 h -4.430595 l 6.021065,-15.904701 h 4.5442 l 6.021065,15.904701 H 94.428691 L 93.406246,87.26983 h -5.68025 z m 2.04489,-5.793855 h 3.63536 l -1.81768,-5.339435 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';stroke-width:0.568025;fill:#000080;fill-opacity:1"
+           id="path906" />
+        <path
+           d="m 109.76534,90.109955 v -9.77003 l -5.45304,9.77003 H 99.995313 V 74.205254 h 4.089777 v 9.770031 l 5.45304,-9.770031 h 4.31699 v 15.904701 z m -4.08978,-17.040751 q -2.95373,0 -2.95373,-2.95373 v -0.68163 h 2.95373 v 0.568025 q 0,0.340815 0.22721,0.568025 0.22721,0.22721 0.56803,0.22721 h 0.68163 q 0.34081,0 0.56802,-0.22721 0.22721,-0.22721 0.22721,-0.568025 v -0.568025 h 2.95373 v 0.68163 q 0,2.95373 -2.95373,2.95373 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';stroke-width:0.568025;fill:#000080;fill-opacity:1"
+           id="path908" />
+        <path
+           d="m 128.85098,89.882745 q -5.06679,0.45442 -8.40677,0.45442 -2.22666,0 -3.27183,-1.045166 -1.04516,-1.045166 -1.04516,-3.271824 v -7.270721 q 0,-2.385705 1.06788,-3.453592 1.09061,-1.090608 3.47632,-1.090608 h 8.17956 v 3.18094 h -7.27072 q -1.36326,0 -1.36326,1.36326 v 7.270721 q 0,0.522583 0.29537,0.840677 0.31809,0.295373 0.79523,0.295373 0.47715,0 1.04517,0 0.56803,-0.02272 1.18149,-0.04544 0.61347,-0.02272 1.22694,-0.04544 0.63618,-0.02272 1.61319,-0.09088 0.99972,-0.06816 2.47659,-0.159047 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';stroke-width:0.568025;fill:#000080;fill-opacity:1"
+           id="path910" />
       </g>
+      <path
+         id="rect927"
+         style="opacity:1;stroke-width:0.260132;fill:#000080;fill-opacity:1"
+         d="m 40.168072,81.973579 h 6.253805 v 2.695452 h -6.253805 z" />
+      <path
+         id="rect929"
+         style="opacity:1;stroke-width:0.250999;fill:#000080;fill-opacity:1"
+         d="m 40.59156,77.541573 h 5.452426 v 1.5026 H 40.59156 Z" />
       <g
-         id="g849"
-         style="fill:#000080">
-        <g
-           id="g847"
-           style="fill:#000080">
-          <path
-             d="M 387.749,60.048 V 0 h -90.048 v 60.048 h -30.024 v 42.966 c 4.795,-1.239 9.821,-1.899 14.999,-1.899 33.084,0 60,26.916 60,60 0,33.084 -26.916,60 -60,60 -5.178,0 -10.204,-0.66 -15,-1.899 v 42.966 H 417.773 V 60.048 Z"
-             id="path845"
-             style="fill:#000080" />
-        </g>
+         aria-label="Экспертный центр"
+         id="text933"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.87118px;line-height:1.25;font-family:'Russo One';-inkscape-font-specification:'Russo One';fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.19678">
+        <path
+           d="m 53.506308,64.709623 q 1.920568,0.118068 2.59749,0.118068 0.181037,0 0.283362,-0.102325 0.110197,-0.110197 0.110197,-0.291234 V 63.68637 h -2.093734 v -1.101965 h 2.093734 v -0.669051 q 0,-0.47227 -0.472271,-0.47227 H 53.58502 v -1.101966 h 2.754913 q 0.826474,0 1.196419,0.377817 0.377817,0.369946 0.377817,1.196419 v 2.518778 q 0,0.771376 -0.362074,1.13345 -0.362075,0.362074 -1.13345,0.362074 -1.180677,0 -2.912337,-0.157423 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path915" />
+        <path
+           d="m 60.590362,64.276709 h -0.590339 v 1.574236 h -1.377456 v -4.171726 h 1.377456 v 1.53488 h 0.629695 l 0.432915,-0.86583 q 0.236135,-0.503755 0.73989,-0.684792 0.181038,-0.06297 0.346332,-0.06297 0.267621,0 0.488014,0.03936 l 0.196779,0.03936 v 1.062609 h -0.275491 q -0.26762,0 -0.393559,0.236136 l -0.393559,0.787118 1.180677,2.085863 h -1.495524 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path917" />
+        <path
+           d="m 67.044718,65.772233 q -1.471911,0.157423 -2.59749,0.157423 -0.53524,0 -0.857958,-0.322718 -0.322719,-0.322718 -0.322719,-0.857959 v -1.810371 q 0,-0.590339 0.33059,-0.920928 0.338461,-0.338461 0.928799,-0.338461 h 2.518778 v 1.062609 h -2.085863 q -0.314847,0 -0.314847,0.314848 v 1.53488 q 0,0.118067 0.07871,0.196779 0.07871,0.07871 0.196779,0.07871 0.708406,0 2.125219,-0.118068 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path919" />
+        <path
+           d="m 71.846131,61.679219 v 4.171726 h -1.377456 v -3.109117 h -1.416813 v 3.109117 h -1.377456 v -4.171726 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path921" />
+        <path
+           d="m 74.246834,62.584405 q -0.314847,0 -0.314847,0.314847 v 0.432915 h 1.3381 v -0.432915 q 0,-0.314847 -0.314847,-0.314847 z m 2.243286,3.187828 q -1.519137,0.157423 -2.754913,0.157423 -0.53524,0 -0.857958,-0.322718 Q 72.55453,65.28422 72.55453,64.748979 v -1.889083 q 0,-0.590338 0.33059,-0.920928 0.338461,-0.338461 0.928799,-0.338461 h 1.574236 q 0.590339,0 0.920928,0.338461 0.338461,0.33059 0.338461,0.920928 v 1.456168 h -2.715557 v 0.314848 q 0,0.118067 0.07871,0.196779 0.07871,0.07871 0.196779,0.07871 0.779247,0 2.282642,-0.118068 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path923" />
+        <path
+           d="m 79.677937,62.741828 q -0.417173,0 -0.944542,0.157424 v 1.889083 h 1.180677 q 0.314847,0 0.314847,-0.314847 V 63.01732 q 0,-0.118068 -0.07871,-0.19678 -0.07871,-0.07871 -0.196779,-0.07871 z m -0.944542,3.109117 v 1.3381 h -1.377457 v -5.509826 h 1.220033 l 0.07871,0.393559 q 0.369946,-0.244006 0.755633,-0.354203 0.393559,-0.118068 0.66118,-0.118068 h 0.354203 q 0.53524,0 0.857958,0.322719 0.322719,0.322718 0.322719,0.857958 v 1.810372 q 0,0.590338 -0.338461,0.928799 -0.33059,0.33059 -0.920928,0.33059 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path925" />
+        <path
+           d="m 84.67613,62.741828 v 3.109117 h -1.377457 v -3.109117 h -1.298744 v -1.062609 h 3.974946 v 1.062609 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path927" />
+        <path
+           d="m 89.241409,63.214099 v -1.53488 h 1.377457 v 4.171726 h -1.377457 v -1.574236 h -1.416812 v 1.574236 H 86.44714 v -4.171726 h 1.377457 v 1.53488 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path929" />
+        <path
+           d="m 91.40598,65.850945 v -4.171726 h 1.377456 v 1.298745 h 1.53488 q 0.535241,0 0.857959,0.322718 0.322718,0.322719 0.322718,0.857959 v 0.511627 q 0,0.53524 -0.322718,0.857958 -0.322718,0.322719 -0.857959,0.322719 z m 2.440065,-0.983898 q 0.118068,0 0.19678,-0.07871 0.07871,-0.07871 0.07871,-0.196779 v -0.346332 q 0,-0.118068 -0.07871,-0.19678 -0.07871,-0.07871 -0.19678,-0.07871 h -1.062609 v 0.897315 z m 3.542032,0.983898 H 96.01062 v -4.171726 h 1.377457 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path931" />
+        <path
+           d="m 99.828131,61.28566 q -1.023254,0 -1.023254,-1.023253 v -0.236136 h 1.023254 v 0.19678 q 0,0.118067 0.07871,0.196779 0.07871,0.07871 0.196778,0.07871 h 0.23614 q 0.11807,0 0.19678,-0.07871 0.0787,-0.07871 0.0787,-0.196779 v -0.19678 h 1.02325 v 0.236136 q 0,1.023253 -1.02325,1.023253 z m 1.062609,0.393559 h 1.45617 v 4.171726 h -1.37746 v -2.282643 l -1.338099,2.282643 h -1.456168 v -4.171726 h 1.377456 v 2.282642 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path933" />
+        <path
+           d="m 108.87998,65.850945 h -3.38461 v -4.171726 h 1.37746 v 3.109116 h 1.41681 v -3.109116 h 1.37745 v 3.109116 h 0.59034 v 2.007151 h -1.29874 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path935" />
+        <path
+           d="m 112.422,62.584405 q -0.31484,0 -0.31484,0.314847 v 0.432915 h 1.3381 v -0.432915 q 0,-0.314847 -0.31485,-0.314847 z m 2.24329,3.187828 q -1.51914,0.157423 -2.75491,0.157423 -0.53524,0 -0.85796,-0.322718 -0.32272,-0.322718 -0.32272,-0.857959 v -1.889083 q 0,-0.590338 0.33059,-0.920928 0.33846,-0.338461 0.9288,-0.338461 h 1.57423 q 0.59034,0 0.92093,0.338461 0.33846,0.33059 0.33846,0.920928 v 1.456168 h -2.71555 v 0.314848 q 0,0.118067 0.0787,0.196779 0.0787,0.07871 0.19678,0.07871 0.77924,0 2.28264,-0.118068 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path937" />
+        <path
+           d="m 118.32537,63.214099 v -1.53488 h 1.37746 v 4.171726 h -1.37746 v -1.574236 h -1.41681 v 1.574236 h -1.37745 v -4.171726 h 1.37745 v 1.53488 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path939" />
+        <path
+           d="m 122.8513,62.741828 v 3.109117 h -1.37746 v -3.109117 h -1.29875 v -1.062609 h 3.97495 v 1.062609 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path941" />
+        <path
+           d="m 126.94431,62.741828 q -0.41717,0 -0.94454,0.157424 v 1.889083 h 1.18067 q 0.31485,0 0.31485,-0.314847 V 63.01732 q 0,-0.118068 -0.0787,-0.19678 -0.0787,-0.07871 -0.19678,-0.07871 z m -0.94454,3.109117 v 1.3381 h -1.37746 v -5.509826 h 1.22003 l 0.0787,0.393559 q 0.36994,-0.244006 0.75563,-0.354203 0.39356,-0.118068 0.66118,-0.118068 h 0.3542 q 0.53524,0 0.85796,0.322719 0.32272,0.322718 0.32272,0.857958 v 1.810372 q 0,0.590338 -0.33846,0.928799 -0.33059,0.33059 -0.92093,0.33059 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;fill-opacity:1"
+           id="path943" />
       </g>
-      <g
-         id="g855"
-         style="fill:#000080">
-        <g
-           id="g853"
-           style="fill:#000080">
-          <circle
-             cx="282.681"
-             cy="161.12"
-             r="30"
-             id="circle851"
-             style="fill:#000080" />
-        </g>
-      </g>
-      <g
-         id="g857"
-         style="fill:#000080" />
-      <g
-         id="g859"
-         style="fill:#000080" />
-      <g
-         id="g861"
-         style="fill:#000080" />
-      <g
-         id="g863"
-         style="fill:#000080" />
-      <g
-         id="g865"
-         style="fill:#000080" />
-      <g
-         id="g867"
-         style="fill:#000080" />
-      <g
-         id="g869"
-         style="fill:#000080" />
-      <g
-         id="g871"
-         style="fill:#000080" />
-      <g
-         id="g873"
-         style="fill:#000080" />
-      <g
-         id="g875"
-         style="fill:#000080" />
-      <g
-         id="g877"
-         style="fill:#000080" />
-      <g
-         id="g879"
-         style="fill:#000080" />
-      <g
-         id="g881"
-         style="fill:#000080" />
-      <g
-         id="g883"
-         style="fill:#000080" />
-      <g
-         id="g885"
-         style="fill:#000080" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.721px;line-height:1.25;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.568025;"
-       x="51.940479"
-       y="90.109955"
-       id="text925"><tspan
-         sodipodi:role="line"
-         id="tspan923"
-         x="51.940479"
-         y="90.109955"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One Bold';stroke-width:0.568025;fill:#000080;">ЕВАЙС</tspan></text>
-    <rect
-       style="opacity:1;stroke-width:0.260132;fill:#000080"
-       id="rect927"
-       width="6.2538056"
-       height="2.6954517"
-       x="40.168072"
-       y="81.973579" />
-    <rect
-       style="opacity:1;stroke-width:0.250999;fill:#000080"
-       id="rect929"
-       width="5.452426"
-       height="1.5026002"
-       x="40.59156"
-       y="77.541573" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.87118px;line-height:1.25;font-family:'Russo One';-inkscape-font-specification:'Russo One';fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.19678;"
-       x="53.348885"
-       y="65.850945"
-       id="text933"><tspan
-         sodipodi:role="line"
-         id="tspan931"
-         x="53.348885"
-         y="65.850945"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Russo One';-inkscape-font-specification:'Russo One';stroke-width:0.19678;fill:#000080;">Экспертный центр</tspan></text>
   </g>
 </svg>

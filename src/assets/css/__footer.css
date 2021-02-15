@@ -124,7 +124,11 @@ a.footer__mail:hover {
 .footer__address {
   text-align: right;
   color: #fff;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+}
+
+.footer__address_1 {
+  margin: 0;
 }
 
 .footer__time {
