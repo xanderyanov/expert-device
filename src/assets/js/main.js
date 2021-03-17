@@ -131,8 +131,8 @@ if ($(".map__area").length) {
 
   function init2() {
     var myMap = new ymaps.Map("map2", {
-      center: [55.708194031615065,37.6542404351959],
-      zoom: 17,
+      center: [55.70844845177437,37.654058044982904],
+      zoom: 16,
       controls: ["zoomControl"]
     });
 
