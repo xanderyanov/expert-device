@@ -46,7 +46,8 @@ body {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  height: 100vh;
+  /* height: 100vh; */
+  height: calc(var(--vh, 1vh) * 100);
   display: flex;
   justify-content: center;
   align-items: center;

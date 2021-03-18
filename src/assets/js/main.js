@@ -3,7 +3,13 @@
 // });
 
 $(function () {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty("--vh", `${vh}px`);
 
+  window.addEventListener("resize", () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  });
 
   $(".menuButton").on("click", function (e) {
     e.preventDefault();
@@ -30,38 +36,38 @@ $(function () {
   $("table").wrap('<div class="table_outer"></div>');
 
   $(".toTop").hide();
-  $(window).on("scroll", function() {
+  $(window).on("scroll", function () {
     if ($(this).scrollTop() > 0) {
       $(".toTop").fadeIn();
     } else {
       $(".toTop").fadeOut();
     }
   });
-  $(".toTop").click(function() {
+  $(".toTop").click(function () {
     $("body,html").animate({ scrollTop: 0 }, 400);
     return false;
   });
 });
 
 var isMobile = {
-  Android: function() {
+  Android: function () {
     return navigator.userAgent.match(/Android/i);
   },
-  BlackBerry: function() {
+  BlackBerry: function () {
     return navigator.userAgent.match(/BlackBerry/i);
   },
-  iOS: function() {
+  iOS: function () {
     return navigator.userAgent.match(/iPhone|iPad|iPod/i);
   },
-  Opera: function() {
+  Opera: function () {
     return navigator.userAgent.match(/Opera Mini/i);
   },
-  Windows: function() {
+  Windows: function () {
     return navigator.userAgent.match(/IEMobile/i);
   },
-  any: function() {
+  any: function () {
     return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
-  }
+  },
 };
 
 if ($(".map__area").length) {
@@ -69,9 +75,9 @@ if ($(".map__area").length) {
 
   function init1() {
     var myMap = new ymaps.Map("map", {
-      center: [51.53106409505919,46.04686637979697],
+      center: [51.53106409505919, 46.04686637979697],
       zoom: 17,
-      controls: ["zoomControl"]
+      controls: ["zoomControl"],
     });
 
     myMap.behaviors.disable("scrollZoom");
@@ -82,7 +88,7 @@ if ($(".map__area").length) {
     var myGeoObjects = [];
 
     myGeoObjects[0] = new ymaps.Placemark(
-      [51.53106409505919,46.04686637979697],
+      [51.53106409505919, 46.04686637979697],
       {
         balloonContentHeader:
           '<div class="baloon__top">Экспертный центр ДЕВАЙС</div>' +
@@ -92,22 +98,21 @@ if ($(".map__area").length) {
           '<a href="tel:+79376397000">8 (8452) 93-30-88</a>',
         balloonContentFooter: '<div class="baloon__footer">Саратов, ул. Октябрьская, д.44, офис №6</div>',
         clusterCaption: "Все виды экспертиз",
-        hintContent: '<div class="baloon__hit">Экспертный центр ДЕВАЙС</div>'
+        hintContent: '<div class="baloon__hit">Экспертный центр ДЕВАЙС</div>',
       },
       {
-
         iconLayout: "default#image",
         iconImageHref: "assets/img/marker.png",
         iconImageSize: [31, 50],
-        iconImageOffset: [-15, -50]
+        iconImageOffset: [-15, -50],
       }
     );
     var clusterIcons = [
       {
         href: "/images/pointer.png",
         size: [31, 40],
-        offset: [0, 0]
-      }
+        offset: [0, 0],
+      },
     ];
 
     var clusterer = new ymaps.Clusterer({
@@ -118,7 +123,7 @@ if ($(".map__area").length) {
       clusterBalloonContentLayoutWidth: 300,
       clusterBalloonContentLayoutHeight: 200,
       clusterBalloonPagerSize: 5,
-      clusterBalloonPagerType: "marker"
+      clusterBalloonPagerType: "marker",
     });
 
     clusterer.add(myGeoObjects);
@@ -131,9 +136,9 @@ if ($(".map__area").length) {
 
   function init2() {
     var myMap = new ymaps.Map("map2", {
-      center: [55.70844845177437,37.654058044982904],
+      center: [55.70844845177437, 37.654058044982904],
       zoom: 16,
-      controls: ["zoomControl"]
+      controls: ["zoomControl"],
     });
 
     myMap.behaviors.disable("scrollZoom");
@@ -144,7 +149,7 @@ if ($(".map__area").length) {
     var myGeoObjects = [];
 
     myGeoObjects[0] = new ymaps.Placemark(
-      [55.70807893624359,37.65165478570555],
+      [55.70807893624359, 37.65165478570555],
       {
         balloonContentHeader:
           '<div class="baloon__top">Экспертный центр ДЕВАЙС</div>' +
@@ -152,24 +157,24 @@ if ($(".map__area").length) {
         balloonContentBody:
           '<div class="baloon__content"><img src="assets/img/logo-map.svg" height="47" width="150">' +
           '<a href="tel:+74993913088">8 (499) 391-30-88</a>',
-        balloonContentFooter: '<div class="baloon__footer">Москва, ул. Ленинская Слобода, 19, 2 этаж, офис №287-1</div>',
+        balloonContentFooter:
+          '<div class="baloon__footer">Москва, ул. Ленинская Слобода, 19, 2 этаж, офис №287-1</div>',
         clusterCaption: "Все виды экспертиз",
-        hintContent: '<div class="baloon__hit">Экспертный центр ДЕВАЙС</div>'
+        hintContent: '<div class="baloon__hit">Экспертный центр ДЕВАЙС</div>',
       },
       {
-
         iconLayout: "default#image",
         iconImageHref: "assets/img/marker.png",
         iconImageSize: [31, 50],
-        iconImageOffset: [-15, -50]
+        iconImageOffset: [-15, -50],
       }
     );
     var clusterIcons = [
       {
         href: "/images/pointer.png",
         size: [31, 40],
-        offset: [0, 0]
-      }
+        offset: [0, 0],
+      },
     ];
 
     var clusterer = new ymaps.Clusterer({
@@ -180,7 +185,7 @@ if ($(".map__area").length) {
       clusterBalloonContentLayoutWidth: 300,
       clusterBalloonContentLayoutHeight: 200,
       clusterBalloonPagerSize: 5,
-      clusterBalloonPagerType: "marker"
+      clusterBalloonPagerType: "marker",
     });
 
     clusterer.add(myGeoObjects);
