@@ -3,7 +3,6 @@
 var gulp = require("gulp");
 var pug = require("gulp-pug");
 var del = require("del");
-var sass = require("gulp-sass");
 var imagemin = require("gulp-imagemin");
 var pngquant = require("imagemin-pngquant");
 var concat = require("gulp-concat");
