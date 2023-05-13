@@ -5,12 +5,12 @@ mixin footer
         .f1
           .logo1
             a(href="")
-              img(src="assets/img/logo1wite.svg", alt="")
+              img(src="assets/img/logo1wite.svg" alt="")
           .oferta *Информация на сайте не является публичной офертой
           a.policy(href="") Политика конфиденциальности и обработки персональных данных
           .dev 
             |Разработка сайта:
-            a(href="https://site-a.ru" target="_blank") Веб-студия "Сайт-А"
+            a(href="https://site-a.ru" target="_blank") Веб-студия "Сайт-А" 
 
         .f2
           nav.footerMenu__area
@@ -24,13 +24,28 @@ mixin footer
               li
                 a(href="") Контакты
         .f3
-          a.footer__phone(href="tel:8 (8452) 93-30-88") 8 (8452) 93-30-88
-          a.footer__mail(href="mailto:expert-device@yandex.ru") expert-device@yandex.ru
-          .footer__address г. Саратов, ул. Октябрьская, д. 44, офис №6
+          .footer__address.footer__address_1
+            .orange г. Саратов,
+            |  ул. Октябрьская, д. 44, офис №6
+          a.footer__phone(href='tel:+78452933088')
+            .orange 8 (8452)
+            |  93-30-88
+          .footer__address
+            .orange г. Москва,
+            |  ул. Ленинская Слобода, 19, 2 этаж, офис №287-1
+          a.footer__phone(href='tel:+74993913088')
+            .orange 8 (499)
+            |  391-30-88
+          .footer__address
+            .orange г. Воронеж,
+            |  ул. Фридриха Энгельса, д. 7А, офис № 302
+          a.footer__phone(href='tel:+74993913088')
+            .orange 8 (8473)
+            |  229-03-88
+          a.footer__mail(href='mailto:expert-device@yandex.ru') expert-device@yandex.ru
           .footer__time
             .footer__timeTitle Режим работы:
             .footer__timeRow Пн.- Чт.:  9:00 - 18:00
             .footer__timeRow Пт.:  9:00 - 17:00
             .footer__timeRow.orange Сб.- Вс.:  выходной
 
-  

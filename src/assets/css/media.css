@@ -140,6 +140,9 @@
   .mainContacts__right {
     width: 100%;
   }
+  .phoneLine__slogan {
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -189,6 +192,9 @@
   }
   .phoneLine {
     padding: 20px 0;
+  }
+  .phoneLine__itemTitle {
+    font-size: 14px;
   }
 }
 
